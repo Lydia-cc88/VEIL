@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">MeloTrip color system</title>
+  <desc id="desc">Eight MeloTrip color swatches.</desc>
+  <rect width="1600" height="620" fill="#FFFCED"/>
+  <rect width="1600" height="118" fill="#DCEAF1"/>
+  <path d="M0 118H1600" stroke="#102B56" stroke-width="2" opacity=".22"/>
+
+  <text x="72" y="78" fill="#102B56" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="8">COLOR SYSTEM</text>
+
+  <g transform="translate(72 158)">
+    <rect width="346" height="174" rx="24" fill="#102B56"/>
+  </g>
+  <g transform="translate(442 158)">
+    <rect width="346" height="174" rx="24" fill="#78A5FF"/>
+  </g>
+  <g transform="translate(812 158)">
+    <rect width="346" height="174" rx="24" fill="#F3E45B"/>
+  </g>
+  <g transform="translate(1182 158)">
+    <rect width="346" height="174" rx="24" fill="#FFF3A6" stroke="#102B56" stroke-width="2" stroke-opacity=".12"/>
+  </g>
+
+  <g transform="translate(72 356)">
+    <rect width="346" height="174" rx="24" fill="#E5AE9D"/>
+  </g>
+  <g transform="translate(442 356)">
+    <rect width="346" height="174" rx="24" fill="#FF8260"/>
+  </g>
+  <g transform="translate(812 356)">
+    <rect width="346" height="174" rx="24" fill="#FFFCED" stroke="#102B56" stroke-width="2" stroke-opacity=".2"/>
+  </g>
+  <g transform="translate(1182 356)">
+    <rect width="346" height="174" rx="24" fill="#4E7058"/>
+  </g>
+</svg>
