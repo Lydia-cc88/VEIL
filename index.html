@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="VEIL — a multidisciplinary designer working across digital experiences, video and interactive installations." />
+    <meta name="theme-color" content="#4101f5" />
+    <title>VEIL — Digital & Transmedia</title>
+    <link rel="stylesheet" href="styles.css?v=20260921-6" />
+  </head>
+  <body class="signal-pending signal-awaiting field-view">
+    <a class="skip-link" href="#work-grid">Skip to project index</a>
+
+    <div id="signal-glow" aria-hidden="true"></div>
+    <div id="identity-name" aria-hidden="true"><span>YUHENG</span><span>WANG</span></div>
+    <div id="identity-refract" aria-hidden="true"><span>YUHENG</span><span>WANG</span></div>
+    <div id="vignette" aria-hidden="true"></div>
+
+    <div id="screen-fx" aria-hidden="true">
+      <div class="scanlines"></div>
+      <div class="screen-glow"></div>
+    </div>
+
+    <section id="enter" aria-label="Enter VEIL">
+      <div id="enter-disc" aria-hidden="true">
+        <div class="enter-orbit enter-orbit--one"></div>
+        <div class="enter-orbit enter-orbit--two"></div>
+        <div id="enter-disc-spin">
+          <div class="disc-face">
+            <span class="disc-face__brand">VEIL</span>
+            <span class="disc-face__meta">MULTIDISCIPLINARY<br />DISC 001 / 2026</span>
+            <i></i>
+          </div>
+        </div>
+      </div>
+      <button id="enter-btn" type="button"><span>Insert Disc</span></button>
+      <div id="enter-audio" aria-hidden="true"><span class="mini-eq"><i></i><i></i></span> Best with sound on</div>
+    </section>
+
+    <div id="loader" aria-hidden="true">
+      <div class="loader-panel loader-panel--top"></div>
+      <div class="loader-panel loader-panel--bottom"></div>
+      <div id="loader-row">
+        <span class="loader-word">VEIL</span>
+        <span id="loader-count">00</span>
+      </div>
+      <div id="loader-bar"><i></i></div>
+    </div>
+
+    <nav id="topbar" aria-label="Primary navigation">
+      <button id="logo" type="button" data-action="home" aria-label="VEIL home">
+        <span>VEIL</span><small>Yuheng Wang<br />Multidisciplinary Designer</small>
+      </button>
+      <div id="nav">
+        <div id="status-pill" role="status" tabindex="0">
+          <span class="bracket">[</span><i id="status-dot"></i><span id="status-word">Online</span><span class="bracket">]</span>
+        </div>
+        <button id="sound-toggle" type="button" aria-label="Toggle sound" aria-pressed="false">
+          <span class="bracket">[</span><span class="mini-eq"><i></i><i></i></span><span class="bracket">]</span>
+        </button>
+        <button id="theme-toggle" type="button" aria-label="Switch to day mode" aria-pressed="false">
+          <span class="bracket">[</span><span class="theme-glyph">☾</span><span class="bracket">]</span>
+        </button>
+        <button id="menu-btn" class="nav-chip" type="button" aria-expanded="false" aria-controls="nav-chips">Menu</button>
+        <div id="nav-chips">
+          <button class="nav-chip" type="button" data-action="work">Work</button>
+          <button class="nav-chip" type="button" data-action="info">About</button>
+          <a class="nav-chip" href="mailto:lad-cc798750294@outlook.com">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="home-view">
+      <video id="home-background-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+        <source src="assets/media/home-background.mp4" type="video/mp4">
+      </video>
+      <button id="intro-trigger" type="button" aria-label="Enter VEIL"><span><img class="core-sphere-image" src="assets/media/veil-signal-sphere.png" alt="" aria-hidden="true"></span></button>
+      <h1 id="project-name" aria-live="polite" data-title="DIGITAL"><span class="orbit-title-back">DIGITAL</span><span class="orbit-title-front">DIGITAL</span></h1>
+      <div id="field-device" aria-label="VEIL rotating screen cube">
+        <div class="field-cube">
+        <button class="field-screen field-screen--digital" type="button" data-field="0" style="--x:-130px;--y:-270px;--w:260px;--h:150px;--screen-image:url('assets/media/signal-digital-v2.webp')">
+          <span class="screen-art screen-art--media" aria-hidden="true"><i></i></span>
+          <span class="screen-kicker">Signal 01</span><strong class="screen-field">Digital</strong>
+          <span class="screen-title">Web &amp; UI</span><span class="screen-action">View projects ↗</span>
+        </button>
+        <button class="field-screen field-screen--spatial" type="button" data-field="1" style="--x:-285px;--y:-92px;--w:235px;--h:175px;--screen-image:url('assets/media/signal-spatial-v2.webp')">
+          <span class="screen-art screen-art--media" aria-hidden="true"><i></i></span>
+          <span class="screen-kicker">Signal 02</span><strong class="screen-field">Transmedia</strong>
+          <span class="screen-title">Video &amp; Interactive Installation</span><span class="screen-action">View projects ↗</span>
+        </button>
+        <button class="field-screen field-screen--digital-back field-screen--duplicate field-screen--project" type="button" data-project="digital-02" aria-label="Open PathMuse project" style="--screen-image:url('cube-media/museum.webp')">
+          <span class="screen-art screen-art--media"><i></i></span>
+        </button>
+        <button class="field-screen field-screen--spatial-left field-screen--duplicate field-screen--project" type="button" data-project="digital-03" aria-label="Open Marx Memorial Library project" style="--screen-image:url('cube-media/library.webp')">
+          <span class="screen-art screen-art--media"><i></i></span>
+        </button>
+
+        </div>
+      </div>
+      <div id="signal-device" aria-label="Category signal orbit">
+        <div id="orbit-rail" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div id="core-axis" aria-hidden="true"><i></i><span></span><i></i></div>
+        <button id="signal-core" type="button" aria-label="Open Digital category">
+          <span id="signal-sphere" data-category="digital" aria-hidden="true"><img class="core-sphere-image" src="assets/media/veil-signal-sphere.png" alt=""></span>
+          <span class="sr-only">Open current category</span>
+        </button>
+        <div id="orbit-track">
+          <button class="signal-screen signal-screen--digital" type="button" data-signal="0" data-signal-module="digital"><span class="screen-art" aria-hidden="true"></span><span class="screen-kicker">Signal 01</span><strong>Digital</strong><small>Web &amp; UI</small></button>
+          <button class="signal-screen signal-screen--spatial" type="button" data-signal="1" data-signal-module="spatial"><span class="screen-art" aria-hidden="true"></span><span class="screen-kicker">Signal 02</span><strong>Transmedia</strong><small>Video &amp; Interactive Installation</small></button>
+        </div>
+        <span id="core-label" aria-hidden="true">Signal Core</span>
+      </div>
+      <button class="orbit-arrow orbit-arrow--prev" type="button" data-orbit-step="-1" aria-label="Previous category">←</button>
+      <button class="orbit-arrow orbit-arrow--next" type="button" data-orbit-step="1" aria-label="Next category">→</button>
+      <button id="scene-hit" type="button" aria-label="Open current project"><span>View Project ↗</span></button>
+      <div id="active-label"><span id="active-category">Digital</span><i></i><span id="active-type">Web & UI</span></div>
+      <div id="category-ticks" aria-hidden="true">
+        <span data-category="Digital">D</span><span data-category="Transmedia">T</span>
+      </div>
+      <div class="corner-word" id="word-left">Interface</div>
+      <div class="corner-word" id="word-right">Experiment</div>
+      <div id="scroll-hint" aria-hidden="true"><span>Scroll to explore</span><i>↓</i></div>
+      <div id="project-counter" aria-hidden="true"><span id="counter-current">01</span> / <span id="counter-total">08</span></div>
+      <nav id="signal-categories" aria-label="Signal categories">
+        <button type="button" data-signal-target="0"><span>01</span><b><strong>Digital</strong><small>Web &amp; UI</small></b><i></i><em>Active</em></button>
+        <button type="button" data-signal-target="1"><span>02</span><b><strong>Transmedia</strong><small>Video &amp; Interactive Installation</small></b><i></i><em>Signal found</em></button>
+      </nav>
+
+      <div id="activation-hint" aria-hidden="true">Scroll / Drag to rotate <span>·</span> Click to open</div>
+      <div id="orbit-counter" aria-hidden="true"><span id="orbit-current">01</span> / 02</div>
+      <div id="system-status" aria-live="polite"><span>Based in London</span><b id="system-label">Available for collaboration</b><i></i></div>
+    </main>
+
+    <section id="work-collection" aria-hidden="true" aria-labelledby="collection-title" inert>
+      <div class="collection-inner">
+        <h2 id="collection-title" class="sr-only" tabindex="-1">Selected work</h2>
+        <div id="collection-list"></div>
+        <div class="collection-controls"><button type="button" id="collection-prev" aria-label="Previous work">←</button><span id="collection-count" aria-live="polite"></span><button type="button" id="collection-next" aria-label="Next work">→</button></div>
+        <nav id="collection-selector" aria-label="Select a work"></nav>
+        <footer class="collection-footer"><button type="button" data-action="home">Back to the beginning ↑</button></footer>
+      </div>
+    </section>
+    <div id="signal-cursor" aria-hidden="true"><span>View 01</span></div>
+    <div id="collection-portal" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div id="screen-expand" aria-hidden="true"></div>
+    <div id="category-transition" aria-hidden="true">
+      <div class="category-transition-panels"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="category-transition-stack" aria-hidden="true"></div>
+      <div class="category-transition-title" aria-hidden="true"><span>Signal</span><strong>Digital</strong><small>VEIL / 01—02</small></div>
+    </div>
+
+    <section id="work-grid" class="overlay" aria-hidden="true" aria-labelledby="work-grid-title">
+      <h2 id="work-grid-title" class="sr-only">Selected work</h2>
+      <header id="work-index-head" aria-hidden="true"><span>VEIL / SELECTED WORK</span><span>01—08</span></header>
+      <div id="grid-list"></div>
+      <div id="grid-legend"><span>Selected work</span><span>08 Projects</span></div>
+      <div id="work-preview" aria-hidden="true"><img alt="" /></div>
+    </section>
+
+    <section id="category-index" class="overlay" aria-hidden="true" aria-labelledby="category-index-title">
+      <header id="category-index-header">
+        <div class="category-index-heading"><span id="category-index-number">01 /</span><h2 id="category-index-title">Digital</h2></div>
+        <div class="category-index-meta"><span>Selected Work</span><b id="category-index-count">02 Projects</b></div>
+      </header>
+      <div id="category-switcher" aria-label="Switch category">
+        <button id="category-switch-prev" type="button"><span>←</span><b>Transmedia</b></button>
+        <button id="category-switch-next" type="button"><b>Transmedia</b><span>→</span></button>
+      </div>
+      <div id="category-carousel" aria-live="polite"></div>
+      <section id="category-index-about" aria-label="Category information">
+        <div><span>Details</span><p id="category-index-details"></p></div>
+        <div><span>Role</span><p id="category-index-role"></p></div>
+        <div><span>Amount</span><strong id="category-index-amount">02</strong></div>
+      </section>
+      <footer id="category-index-footer">
+        <button id="category-prev" type="button">← Previous</button>
+        <span id="category-project-position">01 / 02</span>
+        <button id="category-next" type="button">Next →</button>
+      </footer>
+    </section>
+
+    <article id="detail" class="overlay" aria-hidden="true" aria-labelledby="detail-title">
+      <div id="detail-content">
+        <section id="detail-hero">
+          <div id="detail-stage">
+            <h2 id="detail-title">Project 01</h2>
+            <div id="detail-object" class="project-object" aria-hidden="true"><i></i><i></i><i></i></div>
+          </div>
+          <div id="detail-meta-row">
+            <div id="detail-summary-column">
+              <div class="meta-head" id="detail-summary-head">Details</div>
+              <p id="detail-summary">Project description to be added.</p>
+            </div>
+            <div id="detail-meta">
+              <div><div class="meta-head" id="detail-role-head">Role</div><p id="detail-role">Role to be added</p></div>
+              <div><div class="meta-head" id="detail-credits-head">Credits</div><p id="detail-credits">Credits to be added</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="detail-scroll">
+          <div id="detail-gallery" class="project-media-grid" aria-label="Project media framework"></div>
+          <button id="detail-next" type="button">
+            <span id="next-pre">Next Veil / 02</span>
+            <div id="next-object" class="project-object" aria-hidden="true"><span class="next-icon-fill"></span><i></i><i></i><i></i></div>
+            <strong id="next-name" aria-label="Project 02"><span>Project</span><span>02</span></strong>
+            <span id="next-category">Digital / Web &amp; UI</span>
+            <span id="next-instruction">Keep scrolling to reveal</span>
+            <span id="next-progress-value" aria-hidden="true">0%</span>
+          </button>
+          <div id="next-runway"></div>
+        </section>
+      </div>
+      <div id="next-hint" aria-hidden="true">Keep scrolling ↓ <span id="detail-percent">0%</span></div>
+    </article>
+
+    <aside id="info" class="overlay" aria-hidden="true" aria-labelledby="info-name">
+      <canvas id="info-background" aria-hidden="true"></canvas>
+      <div id="info-dither" aria-hidden="true"></div>
+      <div id="info-inner">
+        <h2 id="info-name">Yuheng Wang</h2>
+        <div id="info-role">Multidisciplinary Designer — Digital \ Transmedia</div>
+        <div id="info-bio">
+          <p>I'm a cross-media artist and designer based between London and Shanghai, working at the intersection of technology, design, and human experience.</p>
+          <p>With expertise spanning web design, UI/UX, interactive installations, film, photography, and 3D rendering, Yuheng creates immersive digital experiences that challenge conventional boundaries between the physical and virtual.</p>
+          <p>Currently pursuing postgraduate studies while actively collaborating with studios and brands on experimental digital projects.</p>
+        </div>
+
+        <div id="info-practice">
+          <div class="info-heading">Practice areas</div>
+          <div class="practice-list">
+            <div><span>Digital</span><small>Web & UI</small></div>
+            <div><span>Transmedia</span><small>Interactive Installation</small></div>
+          </div>
+        </div>
+
+        <div id="info-contact">
+          <div><div class="info-heading">Contact</div><a href="mailto:lad-cc798750294@outlook.com">lad-cc798750294@outlook.com</a></div>
+          <div><div class="info-heading">Elsewhere</div><a href="#">LinkedIn</a><a href="#">Instagram</a><a href="documents/Yuheng-Wang-CV-UK.pdf" target="_blank" rel="noopener">Résumé</a></div>
+        </div>
+
+      </div>
+    </aside>
+
+    <div id="info-glitch" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+    <svg class="visual-filter-defs" width="0" height="0" aria-hidden="true" focusable="false">
+      <filter id="logo-refraction-filter" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency="0.018 0.042" numOctaves="2" seed="8" result="refraction-noise" />
+        <feDisplacementMap id="logo-refraction-map" in="SourceGraphic" in2="refraction-noise" scale="0" xChannelSelector="R" yChannelSelector="B" />
+      </filter>
+    </svg>
+    <div id="wipe" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div id="mobile-curtain" aria-hidden="true"></div>
+
+    <script src="app.js?v=20260921-7" defer></script>
+  </body>
+</html>
