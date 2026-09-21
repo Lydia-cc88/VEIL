@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title">
+  <title id="title">Marx Memorial Library identity mark</title>
+  <g transform="translate(40 55)">
+    <path fill="#f3ebe0" d="M18 8h204l-12 40H18z"/>
+    <path fill="#f3ebe0" d="M44 82h148l-12 40H44z"/>
+    <path fill="#f3ebe0" d="M18 156h204l-12 40H18z"/>
+    <path fill="#df4d2d" d="M151 66l35 12-79 132-35-20z"/>
+    <path fill="#f3ebe0" d="M18 8h40l-14 188H4z" opacity=".2"/>
+  </g>
+</svg>
